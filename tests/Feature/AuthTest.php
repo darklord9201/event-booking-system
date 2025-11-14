@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use Database\Factories\UserFactory;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Facades\Hash;
@@ -40,11 +41,6 @@ class AuthTest extends TestCase
             'data',
             'errors'
         ]);
-
-    }
-
-    public function test_login()
-    {
 
     }
 }
